@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class LC3_LongestSubstringWithoutRepeatingCharacter {
@@ -19,6 +20,7 @@ public class LC3_LongestSubstringWithoutRepeatingCharacter {
             set.add(s.charAt(right));
             ans = Math.max(ans,right-left+1);
         }
+
         return ans;
     }
 }
