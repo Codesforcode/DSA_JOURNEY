@@ -40,5 +40,6 @@ public class LC155_MinStack {
             this.min = min;
             this.next = next;
         }
+
     }
 }
